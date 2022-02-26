@@ -3,7 +3,7 @@
 // @Email: 1245863260@qq.com, g1245863260@gmail.com
 // @File: factorysimple.go
 // @Date: 2022/2/26 10:26
-// @Desc: 简单工程模式
+// @Desc: 简单工厂模式
 package factory
 
 import "fmt"
