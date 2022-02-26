@@ -3,7 +3,7 @@
 // @Email: 1245863260@qq.com, g1245863260@gmail.com
 // @File: factorymethod.go
 // @Date: 2022/2/26 11:02
-// @Desc: 工厂方法模式：加工工厂,延伸到子类中去实践
+// @Desc: 工厂方法模式：延伸到子类中去实践
 package factory
 
 //Operator 是被封装的实际类接口
