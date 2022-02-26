@@ -27,14 +27,14 @@ func BenchmarkGetHungerInstance(b *testing.B) {
 
 func TestGetLazyInstance(t *testing.T) {
 	if uintptr(unsafe.Pointer(GetLazyInstance())) != uintptr(unsafe.Pointer(GetLazyInstance())) {
-		t.Errorf("hunger instance is not single")
+		t.Errorf("lazy instance is not single")
 	}
 }
 
 func BenchmarkGetLazyInstance(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		if uintptr(unsafe.Pointer(GetLazyInstance())) != uintptr(unsafe.Pointer(GetLazyInstance())) {
-			b.Errorf("hunger instance is not single")
+			b.Errorf("lazy instance is not single")
 		}
 	}
 }
