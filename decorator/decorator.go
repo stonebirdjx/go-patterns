@@ -3,7 +3,7 @@
 // @Email: 1245863260@qq.com, g1245863260@gmail.com
 // @File: decorator.go
 // @Date: 2022/2/27 10:14
-// @Desc: 装饰器模式
+// @Desc: 装饰器模式：允许向一个现有的对象添加新的功能，同时又不改变其结构
 package decorator
 
 // IDraw IDraw
