@@ -3,7 +3,7 @@
 // @Email: 1245863260@qq.com, g1245863260@gmail.com
 // @File: bridge.go
 // @Date: 2022/2/27 10:02
-// @Desc:
+// @Desc: 桥接模式：是用于把抽象化与实现化解耦。
 package bridge
 
 // IMsgSender IMsgSender
