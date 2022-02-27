@@ -3,7 +3,7 @@
 // @Email: 1245863260@qq.com, g1245863260@gmail.com
 // @File: prototype.go
 // @Date: 2022/2/26 14:22
-// @Desc: 原型模式：原型模式能够负责自身对象
+// @Desc: 原型模式：原型模式能够复制自身对象
 package prototype
 
 // Cloneable 是原型对象实现的接口
